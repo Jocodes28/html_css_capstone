@@ -1,0 +1,36 @@
+.carousel-inner img {
+    height: 550px;
+    }
+.background {
+    background-image: url('/images/Homepage/Picture1.jpg');
+}
+.btn {
+    background-color: #252426;
+}
+.main-center {
+    display: flex;
+    align-items: center;
+}
+.title h1 {
+    text-align: center;
+}
+.title h4 {
+    text-align: center;
+}
+.title h5 {
+    text-align: center;
+}
+.navbar{
+    font-weight: bold;
+}
+.nav-item {
+    font-weight: bold;
+}
+.prod-des-center {
+    text-align: center;
+}
+.candle {
+    border-radius: 25px;
+    margin-left: 50px;
+    margin-right: 50px;
+} 
