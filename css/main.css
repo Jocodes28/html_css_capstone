@@ -2,7 +2,8 @@
     height: 550px;
     }
 .background {
-    background-image: url('/images/Homepage/Picture1.jpg');
+    background-image: url('/images/Homepage/seamless-pattern-crystal-lattice-vector-illustration-40427218.jpg');
+    background-repeat: repeat;
 }
 .btn {
     background-color: #252426;
@@ -10,6 +11,11 @@
 .main-center {
     display: flex;
     align-items: center;
+}
+.title {
+    color: black;
+    font-weight: bolder;
+    background-color: white;
 }
 .title h1 {
     text-align: center;
@@ -20,8 +26,13 @@
 .title h5 {
     text-align: center;
 }
-.navbar{
+.navbar {
     font-weight: bold;
+    background: black;
+    margin-bottom: 2%;
+    margin-top: 2%;
+    height: 50px;
+    position: sticky;
 }
 .nav-item {
     font-weight: bold;
@@ -34,3 +45,26 @@
     margin-left: 50px;
     margin-right: 50px;
 } 
+.carousel-align {
+    padding-left: 450px;
+}
+.about1 {
+    text-align: center;
+    font-weight: bold;
+    background-color: white;
+}
+.about2 {
+    text-align: center;
+    font-weight: normal;
+    background-color: white;
+}
+.about3 {
+    text-align: center;
+    font-weight: normal;
+    background-color: white;
+}
+.logo {
+    width: 150px;
+    height: 150px;
+    border-radius: 75px;
+}
