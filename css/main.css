@@ -37,9 +37,6 @@
 .nav-item {
     font-weight: bold;
 }
-.prod-des-center {
-    text-align: center;
-}
 .candle {
     border-radius: 25px;
     margin-left: 50px;
@@ -67,4 +64,9 @@
     width: 150px;
     height: 150px;
     border-radius: 75px;
+}
+.card {
+    margin: 0 auto; /* Added */
+    float: none; /* Added */
+    margin-bottom: 10px; /* Added */
 }
