@@ -1,14 +1,10 @@
 .carousel-inner img {
-    height: 550px;
-    width: 1000px;
+    height: 750px;
+    width: 1500px;
     }
 .background {
     background-image: url('/images/Homepage/Picture1.jpg');
     background-repeat: repeat;
-}
-body{
-    background-color: #EDEDED;
-
 }
 .btn {
     background-color: #A97E7E;
@@ -19,22 +15,15 @@ body{
     display: flex;
     align-items: center;
 }
-title {
-    color: black;
-    font-weight: bolder;
-    background-color: #EDEDED;
-    border-radius: 25px;
-    margin-left: 300px;
-    margin-right: 300px;
-}
 .titleh1 {
     text-align: center;
     color: black;
     font-weight: bolder;
     background-color: #EDEDED;
     border-radius: 25px;
-    margin-left: 300px;
-    margin-right: 300px;
+    margin-left: 275px;
+    margin-right: 275px;
+    margin-bottom: 10px;
 }
 .titleh4 {
     text-align: center;
@@ -44,6 +33,7 @@ title {
     border-radius: 25px;
     margin-left: 350px;
     margin-right: 350px;
+    margin-bottom: 10px;
 }
 .titleh5 {
     text-align: center;
@@ -51,8 +41,17 @@ title {
     font-weight: bolder;
     background-color: #EDEDED;
     border-radius: 25px;
-    margin-left: 385px;
-    margin-right: 385px;
+    margin-left: 400px;
+    margin-right: 400px;
+}
+.titleh6 {
+    text-align: center;
+    color: black;
+    font-weight: bolder;
+    background-color: #EDEDED;
+    border-radius: 25px;
+    margin-left: 475px;
+    margin-right: 475px;
 }
 .navbar {
     font-weight: bold;
@@ -60,7 +59,6 @@ title {
     margin-bottom: 2%;
     margin-top: 2%;
     height: 50px;
-    position: sticky;
 }
 .nav-item {
     font-weight: bold;
@@ -69,43 +67,22 @@ title {
     border-radius: 25px;
     margin-left: 50px;
     margin-right: 50px;
-} 
-.carousel-align {
-    margin-right: 300px;
-    margin-left: 35px;
 }
 .about {
     text-align: center;
     background-color: #EDEDED;
-    border-radius: 25px;
-    font-weight: bolder;
-    margin-right: 300px;
-    padding-left: 40px;
-    padding-right: 40px;
-}
-.about1 {
-    text-align: center;
-    font-weight: bolder;
-    background-color: #ededed;
-    margin-left: 300px;
-    margin-right: 300px;
+    color: black;
     border-radius: 25px;
 }
 .help {
-        text-align: center;
-        font-weight: bolder;
-        background-color: #ededed;
-        margin-left: 350px;
-        margin-right: 40px;
-        border-radius: 25px;
-}
-about3 {
     text-align: center;
-    font-weight: bold;
-    margin-left: 25px;
-    margin-right: 25px;    
+    background-color: #ededed;
+    border-radius: 25px;
+    padding: 15px;
+}
+h2{
+    text-decoration: underline;
 }   
- 
 .logo {
     width: 175px;
     height: 175px;
@@ -146,5 +123,29 @@ hr {
     height: 1px;
 }
 a {
-    color:black;
+    color: red;
+}
+.sodle {
+    text-align: center;
+    font-weight: 600;
+    font-size: 30px;
+    background-color: #EDEDED;
+    color: black;
+    border-radius: 25px;
+    margin-left: 425px;
+    margin-right: 425px;
+    margin-bottom: 10px;
+}
+
+.soy {
+    text-align: center;
+    font-weight: 400;
+    background-color: #EDEDED;
+    color: black;
+    border-radius: 25px;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+.thinbut {
+    height:10px;
 }
