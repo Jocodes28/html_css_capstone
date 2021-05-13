@@ -6,10 +6,12 @@
     background-image: url('/images/Homepage/Picture1.jpg');
     background-repeat: repeat;
 }
-.btn {
-    background-color: #A97E7E;
-    color:black;
-    border-color: #A97E7E;
+#addcart {
+    background-color: #e0908d;
+    border-color: #e0908d;
+}
+#submit {
+    background-color: #e0908d;
 }
 .main-center {
     display: flex;
@@ -62,6 +64,7 @@
 }
 .nav-item {
     font-weight: bold;
+    text-align: right;
 }
 .candle {
     border-radius: 25px;
@@ -84,9 +87,9 @@ h2{
     text-decoration: underline;
 }   
 .logo {
-    width: 175px;
+    width: 150px;
     height: 175px;
-    border-radius: 75px;
+    border-radius: 85px;
 }
 .container-card {
     padding: 50px;
@@ -123,29 +126,31 @@ hr {
     height: 1px;
 }
 a {
-    color: red;
+    color: navy;
 }
-.sodle {
+.soycandle {
     text-align: center;
-    font-weight: 600;
-    font-size: 30px;
+    text-decoration: underline;
+    font-weight: 500;
+    font-size: 26px;
     background-color: #EDEDED;
     color: black;
     border-radius: 25px;
-    margin-left: 425px;
-    margin-right: 425px;
     margin-bottom: 10px;
+    margin-left: 450px;
+    margin-right: 450px;
+    padding-bottom: 0;
+    padding-top: 7px;
 }
-
-.soy {
+.soydescription {
     text-align: center;
     font-weight: 400;
     background-color: #EDEDED;
     color: black;
     border-radius: 25px;
-    margin-left: 100px;
-    margin-right: 100px;
+    margin-left: 150px;
+    margin-right: 150px;
 }
-.thinbut {
-    height:10px;
+#sign {
+    padding-bottom: 10px;
 }
